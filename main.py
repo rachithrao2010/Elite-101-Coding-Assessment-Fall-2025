@@ -82,7 +82,7 @@ def view_books():
 
 
 '''
-# searches by ID or Author
+# searches by Genre or Author
 # does not return anything
 # input is handled internally
 '''
