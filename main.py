@@ -89,6 +89,7 @@ def view_books():
 def search():
     printed_output = False
     search = input("Please Enter a Keyword that matches either the Book's Author or Genre:   ")
+    search = search.capitalize()
     print("ID" + (" " * 10) + "Title" + (" " * 50) + "Author \n \n")
     for item in books:
         if item.author == search or item.genre == search:
